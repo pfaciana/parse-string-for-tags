@@ -1,7 +1,7 @@
 # Parse String For Tags
 Parse a string for html/xml tags, and return the matched tags, their attributes and contents to a callback.
 
-This packages takes some string and runs regex against it looking for matching opening and closing tags and returns information about the tag(s) back to a user defined callback. At present, this will NOT work for self-closing tags `<img src="/path/file.jpg" />` or tags that do not have closing tags `<br>`.
+This package takes some string and runs regex against it looking for matching opening and closing tags and returns information about the tag(s) back to a user defined callback. At present, this will NOT work for self-closing tags `<img src="/path/file.jpg" />` or tags that do not have closing tags `<br>`.
 
 I wrote this because I wanted a script that would take in the source of a php file and look for script and style tags within it. On those tags, there were ` data-file="some/dest/path/file.ext"` attributes that defined where the contents of those file should be saved on the server. I incorporated this into my build scripts. I have since made it much more flexible to fit a variety of needs.
 
