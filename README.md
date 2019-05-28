@@ -51,8 +51,6 @@ Parse String For Tags accepts two required arguments.
 
 ## Usage
 
-Internally the transforms will get called using `apply`. So each item in the array should be the arguments array for `apply`.
-
 ``` js
 
 var parseStr = require('parse-string-for-tags');
