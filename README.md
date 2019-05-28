@@ -41,7 +41,7 @@ Parse String For Tags accepts two required arguments.
 
 #### starTag
 
-(string) String output of the <tagName and attributes>. In case the user would like to preform additional parsing of their own. Often this can be ignored.
+(string) String output of the tagName and attributes. In case the user would like to preform additional parsing of their own. Often this can be ignored.
 
 #### source
 
